@@ -1,0 +1,59 @@
+body {
+	font: 90% Times, serif; 
+	color: #000; 
+	text-align: left; 
+	margin: 0; 
+	padding: 0;
+	}
+
+.nav-wrap,
+.sidebar,
+.footer-nav,
+.backstretch,
+.cta-wrap,
+.col:first-child br {
+	display: none;
+}
+
+.logo img {
+    height: auto;
+    width: 150px;
+}
+
+.logo:after {
+	content: attr(href);
+    display: block;
+    margin-top: 10px;
+}
+
+.magnet img {
+	height: auto;
+	width: 100px;
+}
+
+.col {
+    float: left;
+	margin-bottom: 8px;
+	margin-right: 20px;
+}
+
+.col a { display: block; }
+
+h5,
+h6 {
+	font-size: 1em;
+	margin: 0;
+}
+
+p.title {
+	font-style: italic;
+	margin: 5px 0;
+}
+
+.researcher,
+.physician { margin-bottom: 30px; }
+
+.footer,
+#main { margin-top: 30px; }
+
+.clear { clear: both; }
